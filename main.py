@@ -42,10 +42,10 @@ CORES_CAIXA = [
     (0, 255, 255),      # Amarelo
     (0, 255, 0),        # Verde
     (0, 165, 255),      # Laranja
-    (0, 0, 255),        # Vermelho
+    (160, 32, 240),     # Roxo
     # Caixas maiores
 ]
-COR_TAMANHO_REFERENCIA = 20000       # area (px originais) que corresponde a cor final
+COR_TAMANHO_REFERENCIA = 22000       # area (px originais) que corresponde a cor final
 FONTE = cv2.FONT_HERSHEY_SIMPLEX      # fonte usada no texto da posicao
 # Tamanho da fonte do texto, proporcional ao tamanho do retangulo (menor = fonte maior).
 FONTE_DIVISOR_RETANGULO = 90          # divide o menor lado do retangulo p/ achar a escala
